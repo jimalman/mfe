@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-// mount function
+// mount function, called directly if from production
 const mount = (el) => {
   ReactDOM.render(<App />, el);
 };
