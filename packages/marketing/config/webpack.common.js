@@ -1,5 +1,3 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin"); // inject javascript includes
-
 module.exports = {
   module: {
     rules: [
