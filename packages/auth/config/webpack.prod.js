@@ -7,7 +7,7 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
-    publicPath: "/auth/latest/",
+    publicPath: "/auth/latest/", // used by remote entry
   },
   plugins: [
     new ModuleFederationPlugin({
