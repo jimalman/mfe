@@ -1,7 +1,5 @@
 import React, { lazy, Suspense, useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-//import MarketingApp from "./components/MarketingApp";
-//import AuthApp from "./components/AuthApp";
 import {
   StylesProvider,
   createGenerateClassName,
